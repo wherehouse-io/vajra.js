@@ -1,0 +1,27 @@
+{
+  "name": "vajra.js",
+  "version": "1.0.0",
+  "description": "Tool to generate React UI that runs, monitors and logs NodeJS based script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wherehouse-io/vajra.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wherehouse-io/vajra.js/issues"
+  },
+  "homepage": "https://github.com/wherehouse-io/vajra.js#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.4",
+    "ts-node": "^10.9.1",
+    "tslint": "^6.1.3",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^4.8.4"
+  }
+}

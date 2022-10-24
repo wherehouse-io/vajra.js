@@ -1,0 +1,37 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+.serverless
+
+# config yml
+serverless-config.yml
+
+# logs
+.logs/
+logs
+_.log
+npm-debug.log_
+yarn-debug.log*
+yarn-error.log*
+
+# npm
+.npm
+
+# dotenv environment variables file
+.env
+
+# OS and editor related
+.DS_Store
+.vscode
+
+# exclude distribution files
+dist/
+postgres-data
+tmp/
+build/
+
+# Yarn Integrity file
+.yarn-integrity
+package-lock.json
