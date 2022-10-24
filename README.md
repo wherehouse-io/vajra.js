@@ -10,3 +10,12 @@ Basic Scope(TBD in detail):
   6. Advanced: Show Script Execution History(Can be collected from log files)
 7. Advanced: A websocket based Live Log Visualisation
 8. Advanced: Live Logs will be stored in production machine and will be shown in FE as well.
+
+## Basic Implementation
+* Read files in vscripts folder
+  * For each script assign a script id
+  * in case redis is there use it as database
+  * Advanced: We can make use of Dynamo DB in future to store and retrieve script data
+* APIs -
+  * Expose API that start, stops the script execution
+  * API to poll for script status
