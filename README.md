@@ -8,5 +8,5 @@ Basic Scope(TBD in detail):
   4. For each script in the folder React Front end will show name parameter (Advanced: A basic validation on parameter data type)
   5. button: Run Script, Stop Execution, Show Logs(Advanced)
   6. Advanced: Show Script Execution History(Can be collected from log files)
-6. Advanced: A websocket based Live Log Visualisation
-7. Advanced: Live Logs will be stored in production machine and will be shown in FE as well.
+7. Advanced: A websocket based Live Log Visualisation
+8. Advanced: Live Logs will be stored in production machine and will be shown in FE as well.
