@@ -1,7 +1,7 @@
 # vajra.js
 Tool to generate React UI that runs, monitors and logs NodeJS based script
 
-Basic Scope(TBD in detail):
+Proposed Scope:
 1. Script will have a basic template usually a function in TypeScript that needs to be run in BE
 2. Script should be available within a folder dedicated to vajra script(let's call it vscript)
 3. Based on what is inside the "vscripts" folder the following steps will take place:
@@ -19,3 +19,8 @@ Basic Scope(TBD in detail):
 * APIs -
   * Expose API that start, stops the script execution
   * API to poll for script status
+
+## Running Test Vajra
+```
+  npx ts-node index.ts
+```
