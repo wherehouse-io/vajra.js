@@ -22,5 +22,5 @@ Proposed Scope:
 
 ## Running Test Vajra
 ```
-  npm run index.ts
+  npx ts-node index.ts
 ```
